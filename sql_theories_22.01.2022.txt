@@ -1,0 +1,360 @@
+1. What is Database?
+
+A: A database is an organized collection of data, stored and retrieved digitally from a remote or local computer system. Databases can be vast and complex.
+
+2. What is DBMS?
+
+A: DBMS stands for Database Management System. DBMS is a system software which is responsible for the creation, retrieval, updation, and management of the database.
+
+3. What is RDBMS? How is it different from DBMS?
+
+A: RDBMS stands for Relational Database Management System. The key difference is that RDBMS stores data in the form of a collection of tables, and relations can be 
+
+   defined between the common fields of these tables and  in DBMS, the data is stored in a hierarchical arrangement.
+
+4. What is SQL?
+
+A: SQL stands for Structured Query Language. It is the standard language for relational database management systems. It is especially useful for handling the organized 
+
+   data comprised of entities and relations between different entities of the data.
+
+5. What is the difference between SQL and MySQL?
+
+A: SQL is a standard language for retrieving and manipulating structured databases and on the other hand MySQL is a relational database management system.
+
+6. What are Tables and Fields?
+
+A: A table is an organized collection of data stored in the form of rows and columns. Columns can be categorized as vertical and rows as horizontal. The columns in a  
+
+  table are called fields while the rows can be referred to as records.
+
+7. What are Constraints in SQL?
+
+A: NOT NULL -    Restricts NULL value from being inserted into a column.
+   CHECK -       Verifies that all values in a field satisfy a condition.
+   DEFAULT -     Automatically assigns a default value if no value has been specified for the field.
+   UNIQUE -      Ensures unique values to be inserted into the field.
+   INDEX -       Indexes a field providing faster retrieval of records.
+   PRIMARY KEY - Uniquely identifies each record in a table.
+   FOREIGN KEY - Ensures referential integrity for a record in another table.
+
+8. What is an inner join?
+
+A: It helps to retrieve the records that have matching values in both tables involved in the joining process. This is the widely used joining method for queries.
+
+9. What is a left outer join?
+
+A: It helps to retrieve all the records from the left and the matched records from the right table.
+
+10. What is a right outer join?
+
+A: It helps to retrieve all the records from the right and the matched records from the left table.
+
+11. What is a full outer join?
+
+A: It helps to retrieve all the records where there is a match in either the left or right table.
+
+12. What is a cross join?
+
+A: Cross join can be defined as a cartesian product of the two tables included in the joining process.
+
+13. What is an Index?
+
+A: A database index is a data structure that provides a quick lookup of data in a column or columns of a table.
+
+14. What is an unique index?
+
+A: Unique indexes are indexes that help maintain data integrity by ensuring that no two rows of data in a table have identical key values. 
+
+15. What is a non unique index?
+
+A:  Non unique indexes are used to improve query performance by maintaining a sorted order of data values which are frequently used.
+
+16. What is a clustered index?
+
+A: A clustered index is an index which defines the physical order in which table records are stored in a database and there can be only one clustered index per table.
+
+    By default a clustered index is created on the primary key column.
+
+17. What is a non clustered index?
+
+A: A nonclustered index is an index structure which separates from the data stored in a table that reorders one or more selected columns.Multiple nonclustered indexes
+
+   on a table can be created.
+
+18. What is the difference between clustered and non clustered index?
+
+A: Clustered index modifies the way records are stored in a database based on the indexed column. A non-clustered index creates a separate entity within the table
+ 
+   which references the original table.
+
+   Clustered index is used for easy and speedy retrieval of data from the database, whereas, fetching records from the non-clustered index is relatively slower.
+
+   In SQL, a table can have a single clustered index whereas it can have multiple non-clustered indexes.
+
+19. What is Data integrity?
+
+A: Data integrity is the assurance of accuracy and consistency of data over its entire life span.
+
+20. What is a Query?
+
+A: A query is a request for information from a database table.
+
+21. What is a Subquery?
+
+A: A subquery is a query within another query, also known as nested query or inner query. 
+
+22.What is union?
+
+A: The union operator combines and returns the result set retrieved by two or more SELECT statements.
+
+23. What is minus?
+
+A: The minus operator is used to remove duplicates from the result set.
+
+24. what is intersect?
+
+A: The INTERSECT clause in SQL is used to combine two SELECT statements but the dataset returned by the INTERSECT statement will be the intersection of the data-sets 
+
+   of the two SELECT statements.
+
+25. What is Cursor?
+
+A: A database cursor is a control structure that allows for the traversal of records in a database.
+
+26. What are Entities and Relationships?
+
+A: Entity: An entity can be a real-world object, either tangible or intangible, that can be easily identifiable.
+
+   Relationships: Relations or links between entities that have something to do with each other.
+
+27. What are the different types of relationships in SQL?
+
+A: One-to-One - This can be defined as the relationship between two tables where each record in one table is associated with the maximum of one record in the other 
+
+		table.
+
+   One-to-Many & Many-to-One - This is the most commonly used relationship where a record in a table is associated with multiple records in the other table.
+
+   Many-to-Many - This is used in cases when multiple instances on both sides are needed for defining a relationship.
+
+   Self-Referencing Relationships - This is used when a table needs to define a relationship with itself.
+
+28. What is an Alias in SQL?
+
+A: An alias is a temporary name assigned to the table or table column for the purpose of a particular SQL query.
+
+29. What is a View?
+
+A: A view in SQL is a virtual table based on the result-set of an SQL statement.
+
+30. What is Normalization?
+
+A: Normalization represents the way of organizing structured data in the database efficiently.
+
+31.  What is Denormalization?
+
+A: Denormalization is the inverse process of normalization, where the normalized schema is converted into a schema that has redundant information.
+
+32. What are the various forms of Normalization?
+
+A: 1.First Normal Form   : A relation is in first normal form if every attribute in that relation is a single-valued attribute.
+
+   2.Second Normal Form  : A relation is in second normal form if it satisfies the conditions for the first normal form and does not contain any partial dependency.s
+
+   3.Third Normal Form   : A relation is said to be in the third normal form, if it satisfies the conditions for the second normal form and there is no transitive  
+
+                      dependency between the non-prime attributes.
+
+   4.Fourth Normal Form  : Fourth normal form is a level of database normalization where there are no non-trivial multivalued dependencies other than a candidate 
+
+                         key.
+
+   5.Fifth Normal Form   :  A relation is said to be in 5NF if and only if it satisfies 4NF and no join dependency exists.
+
+   6.Boyce-Codd Normal Form : A relation is in Boyce-Codd Normal Form if satisfies the conditions for third normal form and for every functional dependency.
+
+33. What is TRUNCATE statement?
+
+A: TRUNCATE statement is used to delete all the rows from the table and free the space containing the table.
+
+34. What is DELETE statement?
+
+A: DELETE statement is used to delete rows from a table.
+
+35. What is DROP statement?
+
+A: DROP statement is used to remove an object from the database.
+
+36. What are the Aggregate functions?
+
+A: AVG() -   Calculates the mean of a collection of values.
+   COUNT() - Counts the total number of records in a specific table or view.
+   MIN() -   Calculates the minimum of a collection of values.
+   MAX() -   Calculates the maximum of a collection of values.
+   SUM() -   Calculates the sum of a collection of values.
+   FIRST() - Fetches the first element in a collection of values.
+   LAST() -  Fetches the last element in a collection of values.
+
+37. What are the Scaler functions?
+
+A: LEN() -    Calculates the total length of the given field (column).
+   UCASE() -  Converts a collection of string values to uppercase characters.
+   LCASE() -  Converts a collection of string values to lowercase characters.
+   MID() -    Extracts substrings from a collection of string values in a table.
+   CONCAT() - Concatenates two or more strings.
+   RAND() -   Generates a random collection of numbers of a given length.
+   ROUND() -  Calculates the round-off integer value for a numeric field (or decimal point values).
+   NOW() -    Returns the current date & time.
+   FORMAT() - Sets the format to display a collection of values.
+
+38. What is User defined function? What are its various types?
+
+A: The user defined functions in SQL are like functions in any other programming language which accept parameters, perform complex calculations, and return a value.
+
+   There is two types of user defined functions:
+
+   Inline: Returns a table data type based on a single SELECT statement.
+
+   Multi-statement: Returns a tabular result-set but, unlike inline, multiple SELECT statements can be used inside the function body.
+
+39. What is OLTP?
+
+A: OLTP stands for Online Transaction Processing, is a class of software applications capable of supporting transaction-oriented programs.
+
+40. What is OLAP?
+
+A: OLAP stands for Online Analytical Processing, a class of software programs that are characterized by the relatively low frequency of online transactions.
+
+41. What is Collation?
+
+A: Collation refers to a set of rules that determine how data is sorted and compared.
+
+42. What are the different types of Collation Sensitivity?
+
+A: Case sensitivity:   A and a are treated differently.
+   Accent sensitivity: a and á are treated differently.
+   Kana sensitivity:   Japanese kana characters Hiragana and Katakana are treated differently.
+   Width sensitivity:  Same character represented in single-byte (half-width) and double-byte (full-width) are treated differently.
+
+38. What is SQl injection?
+
+A: It is a type of database attack method where malicious SQL statements are inserted into an entry field of database such that once it is executed the database is 
+
+   open for an attacker.                 
+
+39. what is magic table?
+
+A: Insert and delete tables are created when the trigger is fired for any DML command.Those tables are nown as magic tables.
+
+   This tables are used inside the triggers for data transaction.
+
+40. What is SQl cursor?
+
+A: In a relational database opreations are made on a set of rows.
+
+   For example a select statement returns a set of rows which is called as a result set.
+
+   But somtimes the applicaions logic needs to work with a row at a time rther than the entire result set at once.This can be done using cursors.
+
+41. What is referential integrity?
+
+A: It refers to the consistecy that must be maintained between primary and foreign keys that is every foreign key value must have a corresponding primary key value.
+
+42. How the exceptions can be handled in SQL server programming?
+
+A: Exceptions or runtime errors are handled by "TRY-CATCH" constructs.Generally writng scripts insde the try block and error handling in the catch block.
+
+43. What is an execution plan?
+
+A: It is basically a route map which is graphically or textually shows the data retrival method choosen by the SQL server query optimizer.
+
+44. What is trigger?
+
+A: It allows us to execute a batch of SQL code when a table event occurs.Example: insert, update, delete etc.
+
+45. What is white box testing?
+
+A: It is also known as "glasss box testing","transparent testing","clear box testing","open box testing","code based testing".White box testing is performed to check 
+
+   the internal structure, security holes, coding process weakness, input variables, expected output, loops, statement, object, vriables, functions.
+
+46. What is black box testing?
+
+A: Black Box Testing is a software testing method in which the functionalities of software applications are tested without having knowledge of internal code structure,
+
+   implementation details and internal paths.
+
+47. What is an identity?
+
+A: It is a column that automatically generates numeric values.
+
+48. What is composite rimary key?
+
+A: It is a set ofcolumns whose values uniquely identify every row in a table.
+
+49. Difference between Rank & Dens Rank?
+
+A:                  Rank                                                    Dense Rank
+
+    i.Rank gives you the ranking within                    i.Dense Rank gives you the ranking within
+      your ordered partition, but it creates                 your ordered partition, but it does not create
+      gap.                                                   any gap.
+      
+    ii.Rank will skip to the next available               ii.Dense Rank will use the next chronological
+      ranking value.                                         ranking value.
+
+50. Difference between Primary key & Unique key?
+
+A:               Primary key                                                Unique key
+
+    i.A table can have only one primary key.               i.A table may have more than one unique key.
+      
+   ii.Primary key can't have any null value.              ii.Unique key may have only one null value.
+
+  iii.Primary key is a clustered index.                  iii.Unique key is a unique non clustered index.
+      
+   iv.Primary key supports an auto increment              iv.Unique key does't support an auto icrement
+               
+      value.                                                 value.
+
+51. Difference between Primary key & Foreign key & Surrogate keys?
+
+A:         Primary key                              Foreign key                                 Surrogate key                                                      
+
+i. It is a column or a set of columns     i.It is a column or a set of columns        i.Surrogate keys join the dimension 
+
+   in a table whose values uniquely         in a table whose values correspond           tables to the fact table.   
+     
+   identify a row in the table.             to the values of the primary key              
+
+                                            in another table.                             
+
+
+ii. Primary key does't store null        ii.Foreign key can accept more than          ii.            NA.
+           
+    values.                                 one null values.           
+
+
+iii.Each table can have only one        iii.Each table can have multiple              iii.           NA.
+
+    primary key.                            foreign key.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
