@@ -8,15 +8,13 @@ A: DBMS stands for Database Management System. DBMS is a system software which i
 
 3. What is RDBMS? How is it different from DBMS?
 
-A: RDBMS stands for Relational Database Management System. The key difference is that RDBMS stores data in the form of a collection of tables, and relations can be 
+A: RDBMS stands for Relational Database Management System. The key difference is that RDBMS stores data in the form of a collection of tables, and relations can be  
 
    defined between the common fields of these tables and  in DBMS, the data is stored in a hierarchical arrangement.
 
 4. What is SQL?
 
-A: SQL stands for Structured Query Language. It is the standard language for relational database management systems. It is especially useful for handling the organized 
-
-   data comprised of entities and relations between different entities of the data.
+A: SQL stands for Structured Query Language. It is the standard language for relational database management systems. It is especially useful for handling the organized data comprised of entities and relations between different entities of the data.
 
 5. What is the difference between SQL and MySQL?
 
@@ -24,9 +22,7 @@ A: SQL is a standard language for retrieving and manipulating structured databas
 
 6. What are Tables and Fields?
 
-A: A table is an organized collection of data stored in the form of rows and columns. Columns can be categorized as vertical and rows as horizontal. The columns in a  
-
-  table are called fields while the rows can be referred to as records.
+A: A table is an organized collection of data stored in the form of rows and columns. Columns can be categorized as vertical and rows as horizontal. The columns in a table are called fields while the rows can be referred to as records.
 
 7. What are Constraints in SQL?
 
@@ -68,13 +64,13 @@ A: Unique indexes are indexes that help maintain data integrity by ensuring that
 
 15. What is a non unique index?
 
-A:  Non unique indexes are used to improve query performance by maintaining a sorted order of data values which are frequently used.
+A: Non unique indexes are used to improve query performance by maintaining a sorted order of data values which are frequently used.
 
 16. What is a clustered index?
 
 A: A clustered index is an index which defines the physical order in which table records are stored in a database and there can be only one clustered index per table.
 
-    By default a clustered index is created on the primary key column.
+By default a clustered index is created on the primary key column.
 
 17. What is a non clustered index?
 
