@@ -114,13 +114,11 @@ A: The minus operator is used to remove duplicates from the result set.
 
 24. what is intersect?
 
-A: The INTERSECT clause in SQL is used to combine two SELECT statements but the dataset returned by the INTERSECT statement will be the intersection of the data-sets 
-
-   of the two SELECT statements.
+A: The INTERSECT clause in SQL is used to combine two SELECT statements but the dataset returned by the INTERSECT statement will be the intersection of the data-sets of the two SELECT statements.
 
 25. What is Cursor?
 
-A: A database cursor is a control structure that allows for the traversal of records in a database.
+A: A database cursor is a control structure that allows for the traversal(the act or process of passing across, over, or through) of records in a database.
 
 26. What are Entities and Relationships?
 
@@ -130,15 +128,13 @@ A: Entity: An entity can be a real-world object, either tangible or intangible, 
 
 27. What are the different types of relationships in SQL?
 
-A: One-to-One - This can be defined as the relationship between two tables where each record in one table is associated with the maximum of one record in the other 
+A: One-to-One - This can be defined as the relationship between two tables where each record in one table is associated with the maximum of one record in the other table.
 
-		table.
+One-to-Many & Many-to-One - This is the most commonly used relationship where a record in a table is associated with multiple records in the other table.
 
-   One-to-Many & Many-to-One - This is the most commonly used relationship where a record in a table is associated with multiple records in the other table.
+Many-to-Many - This is used in cases when multiple instances on both sides are needed for defining a relationship.
 
-   Many-to-Many - This is used in cases when multiple instances on both sides are needed for defining a relationship.
-
-   Self-Referencing Relationships - This is used when a table needs to define a relationship with itself.
+Self-Referencing Relationships - This is used when a table needs to define a relationship with itself.
 
 28. What is an Alias in SQL?
 
@@ -239,21 +235,17 @@ A: Case sensitivity:   A and a are treated differently.
 
 38. What is SQl injection?
 
-A: It is a type of database attack method where malicious SQL statements are inserted into an entry field of database such that once it is executed the database is 
-
-   open for an attacker.                 
+A: It is a type of database attack method where malicious SQL statements are inserted into an entry field of database such that once it is executed the database is open for an attacker.                 
 
 39. what is magic table?
 
-A: Insert and delete tables are created when the trigger is fired for any DML command.Those tables are nown as magic tables.
-
-   This tables are used inside the triggers for data transaction.
+A: Insert and delete tables are created when the trigger is fired for any DML command.Those tables are known as magic tables.This tables are used inside the triggers for data transaction.
 
 40. What is SQl cursor?
 
-A: In a relational database opreations are made on a set of rows.
+A: In a relational database, opreations are made on a set of rows.
 
-   For example a select statement returns a set of rows which is called as a result set.
+   For example, a select statement returns a set of rows which is called as a result set.
 
    But somtimes the applicaions logic needs to work with a row at a time rther than the entire result set at once.This can be done using cursors.
 
@@ -271,27 +263,23 @@ A: It is basically a route map which is graphically or textually shows the data 
 
 44. What is trigger?
 
-A: It allows us to execute a batch of SQL code when a table event occurs.Example: insert, update, delete etc.
+A: It allows us to execute a batch of SQL code when a table event occurs. Example: insert, update, delete etc.
 
 45. What is white box testing?
 
-A: It is also known as "glasss box testing","transparent testing","clear box testing","open box testing","code based testing".White box testing is performed to check 
-
-   the internal structure, security holes, coding process weakness, input variables, expected output, loops, statement, object, vriables, functions.
+A: It is also known as "glasss box testing","transparent testing","clear box testing","open box testing","code based testing".White box testing is performed to check the internal structure, security holes, coding process weakness, input variables, expected output, loops, statement, object, vriables, functions.
 
 46. What is black box testing?
 
-A: Black Box Testing is a software testing method in which the functionalities of software applications are tested without having knowledge of internal code structure,
-
-   implementation details and internal paths.
+A: Black Box Testing is a software testing method in which the functionalities of software applications are tested without having knowledge of internal code structure,implementation details and internal paths.
 
 47. What is an identity?
 
 A: It is a column that automatically generates numeric values.
 
-48. What is composite rimary key?
+48. What is composite primary key?
 
-A: It is a set ofcolumns whose values uniquely identify every row in a table.
+A: It is a set of columns whose values uniquely identify every row in a table.
 
 49. Difference between Rank & Dens Rank?
 
